@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Soldier Registration Form</title>
+  
+</head>
+<body>
+  <div class="form-container">
+    <h2>Soldier Registration</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="rank">Rank</label>
+      <select id="rank" name="rank" required>
+        <option value="">Select rank</option>
+        <option>Private</option>
+        <option>Corporal</option>
+        <option>Sergeant</option>
+        <option>Lieutenant</option>
+      </select>
+
+      <label for="serviceNo">Service Number</label>
+      <input type="text" id="serviceNo" name="serviceNo" placeholder="Enter service number" required>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="example@mail.com">
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="+61 4xx xxx xxx" required>
+
+      <label for="address">Address</label>
+      <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
